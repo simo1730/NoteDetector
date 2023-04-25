@@ -5,6 +5,10 @@ Created on Mon Apr 17 15:40:37 2023
 
 @author: simo
 """
+#pouzitie: python 'inputFile' 'outputFile' --octave
+#prikladam aj moju povodnu pracu za pomoci kniznice aubio. ma viacej moznosti avsak nespravne zobrazuje oktavy pri istych nahravkach
+#tento skript som uz dalej nerozsiroval kvoli tomu, ze tam neanalyzujem spektrum ja ale program samotny
+
 from aubio import source, pitch
 import librosa
 import argparse
